@@ -24,3 +24,14 @@ header {
     color: #fff;
     text-decoration: none;
   }
+.header-item{
+  padding-bottom: 20px;
+}
+
+.search input {
+  padding: 10px;
+  border: none;
+  width: 200px;
+  margin-right: 10px;
+}
+
