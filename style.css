@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header-item ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-item li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 10px;
+  }
+  .header-item a {
+    color: #fff;
+    text-decoration: none;
+  }
