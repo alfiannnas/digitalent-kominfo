@@ -35,3 +35,27 @@ header {
  
 }
 
+.container {
+  display: flex;
+  margin: 50px 30px;
+}
+
+.card-berita {
+  width: 400px;
+  padding: 32px;
+}
+
+.foto-berita {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card-berita h1{
+  padding: 10px 0px;
+  color: #121212;
+}
+
+.card-berita p{
+  color: #807070;
+}
