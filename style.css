@@ -7,18 +7,22 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    
+    
   }
   
   .header-item ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    
   }
   
   .header-item li {
     display: inline-block;
     margin-right: 20px;
     padding-top: 10px;
+    
   }
   .header-item a {
     color: #fff;
@@ -26,12 +30,50 @@ header {
   }
 .header-item{
   padding-bottom: 20px;
+  }
+  .header-item li{
+    position: relative;
+  }
+
+.header-item a::before{
+  position: absolute;
+  content: "";
+  background-color: aqua;
+  width: 0;
+  height: 2px;
+  margin-top: 20px;
+  transition: .5s;
+  border-radius: 100px;
+
 }
+.header-item a::before{
+  left: 0;
+
+}
+.header-item a:hover::before{
+width: 100%;
+
+}
+
 
 .search input {
   padding: 10px;
   border: none;
   width: 200px;
+  border-radius: 20px;
  
+}
+
+button{
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: rgb(83, 156, 221);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+button:hover{
+  background-color:rgb(90, 147, 197) ;
 }
 
