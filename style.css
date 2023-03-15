@@ -291,26 +291,3 @@ img {
 #rsidebar ul li a:hover {
   color: #ff0000;
 }
-#rsidebar .sponsors {
-  text-align: center;
-  padding-bottom: 10px;
-}
-#rsidebar .sponsors img {
-  margin: 5px;
-}
-#rsidebar .twitter {
-  padding: 0 20px 0 53px;
-  background: url(images/twitter.gif) no-repeat 10px 0;
-  line-height: 1.4em;
-}
-#rsidebar .video {
-  padding: 0 10px;
-}
-#rsidebar .flickr {
-  text-align: center;
-  padding-bottom: 10px;
-}
-#rsidebar .flickr img {
-  margin: 5px 8px;
-}
-/** END right sidebar **/
