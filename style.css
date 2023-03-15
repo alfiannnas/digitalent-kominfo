@@ -34,4 +34,12 @@ header {
   width: 200px;
   margin-right: 10px;
 }
+.fa{
+  color:black
+}
+.search{
+  background-color: #fff;
+  width: 30%;
+  margin: auto;
+}
 
